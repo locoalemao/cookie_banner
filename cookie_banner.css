@@ -1,0 +1,133 @@
+#cmpbox {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
+  z-index: 10000;
+}
+
+.cmpboxinner {
+  background-color: rgb(153, 192, 249);
+  padding: 1.25rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  max-width: 45rem;
+  width: 90%;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Style the heading */
+.cmpboxhl {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+.cmpboxhlCA {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+/* Style the text */
+.cmpboxtxt {
+  margin-bottom: 1.25rem;
+}
+
+.cookie-category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: rgb(111, 158, 227);
+  border-radius: 0.25rem;
+  border: 1px solid black;
+}
+
+.cookie-category input[type="checkbox"] {
+  margin-right: 0.75rem;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.cookie-category label {
+  font-size: 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+}
+
+/* Style the buttons */
+.cmpboxbtn {
+  display: inline-block;
+  margin: 0.6rem;
+  padding: 1rem 1.5rem;
+  background-color: rgb(133, 156, 209);
+  color: black;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cmpboxbtn:visited {
+  color: inherit;
+}
+
+.cmpboxalt {
+  display: inline-block;
+  background-color: var(--text-color-alt);
+  color: var(--text-color);
+  text-decoration: none;
+  align-items: left;
+  border-radius: 0.25rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cmpboxbtn:hover {
+  background-color: rgb(104, 136, 209);
+}
+
+.cmpboxhl {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.cmpboxhl-text {
+  text-align: center;
+}
+
+.cmpclose a {
+  color: var(--first-color-alt);
+  position: relative;
+  top: -0.5rem;
+}
+
+.cmpmore {
+  margin-top: 1.25rem;
+}
+
+.cmplink:visited {
+  color: #007bffe1;
+}
+
+.cmpmorelink {
+  color: #007bffe1;
+  text-decoration: none;
+}
+
+#advanced-content {
+  display: none;
+}
